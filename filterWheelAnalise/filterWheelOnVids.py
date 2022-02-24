@@ -1,8 +1,10 @@
 import numpy as np
 import cv2 as cv 
 
-#for video capturing by your webcam
-camera = cv.VideoCapture(0)
+#for video capturing by a vid
+nameVid = input("nome video: ")
+numberc = (int)(input("numero velocità: "))
+camera = cv.VideoCapture(nameVid)
 
 while(1):
 
@@ -47,6 +49,6 @@ while(1):
     cv.imshow('ALLCOMMON_filter',res_Wcommon_allfilter)
     cv.imshow('Y&W_filter',res_Wcommon_WhandY)
 
-    if cv.waitKey(1) & 0xFF == ord('q'):
+    if cv.waitKey(numberc) & 0xFF == ord('q'):
         break
 cv.destroyAllWindows()

@@ -14,12 +14,4 @@ The res_Wcommon_allfilter is what ther is in common using the and between all th
 
 The last one is res_Wcommon_WhandY that is the comparison between white and yellow filter and normally if you use a light to enlighten the yellow object there is always a common spot between yellow and white filter.
 
-
-
-
-
-
-
-
-
-
+the traditional filterWheel.py analize the webcam atm, the other code analise the video given in input at the start of the code and that is present in the same folder of the code itself.
